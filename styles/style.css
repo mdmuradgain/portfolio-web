@@ -82,11 +82,28 @@ nav a{
   margin-bottom: 20px;
 }
 /* Main Section Styles */
-
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
 /* About Styles */
 .about{
   padding: 130px;
   border-radius: 10px;
   background: #FFF8F3;
   margin: 130px 0;
+}
+.about_info_container{
+  display: flex;
+  justify-content: space-between;
+}
+.info_title{
+  color: #757575;
+  text-align: center;
+}
+#what_i_do_description{
+  padding: 30px 150px;
+}
+.skill_container{
+  display: flex;
 }
